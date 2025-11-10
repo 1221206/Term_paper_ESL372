@@ -1,0 +1,26 @@
+Model: Final KAN-PINN (without monotonicity loss)
+
+Solution_u Network (KAN Encoder + MLP Predictor):
+  Encoder (KAN):
+    Input dimension: 17
+    Output dimension: 32
+    Number of hidden layers: 3
+    Number of neurons in each hidden layer: 60
+  Predictor (MLP):
+    Input dimension: 32
+    Hidden dimension: 32
+    Output dimension: 1
+
+Dynamical_F Network (KAN):
+  Input dimension: 35
+  Output dimension: 1
+  Number of hidden layers: 3
+  Number of neurons in each hidden layer: 60
+
+--- Final Model Performance Metrics ---
+  Mean Squared Error (MSE): 0.00014298
+  Mean Absolute Error (MAE): 0.007678
+  Mean Absolute Percentage Error (MAPE): 0.008232
+  Root Mean Squared Error (RMSE): 0.011957
+  R-squared (R2): 0.889295
+---------------------------------------

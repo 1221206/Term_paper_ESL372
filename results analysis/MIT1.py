@@ -24,9 +24,7 @@ class Results:
 
     def parser_log(self):
         '''
-        解析train过程中产生的log文件，获取里面的数据
-        English:
-            Parse the log file generated during the training process to obtain the data
+        Parse the log file generated during the training process to obtain the data
         :return: dict
         '''
         data_dict = {}
@@ -34,7 +32,6 @@ class Results:
         with open(self.log_dir, 'r') as f:
             lines = f.readlines()
 
-        # 解析超参数，logging等级为CRITICAL
         # Parse hyperparameters, logging level is CRITICAL
         for line in lines:
             if 'CRITICAL' in line:
@@ -42,7 +39,6 @@ class Results:
                 k, v = params.split(':',1)
                 data_dict[k] = v
 
-        # 解析train/valid/test过程中的loss
         # Parse the loss during the train/valid/test process
         train_data_loss = []
         train_PDE_loss = []
@@ -57,14 +53,14 @@ class Results:
             line = lines[i]
             if '[train] epoch:1 iter:1 data' in line:
                 parts = line.split(',')
-                if len(parts) >= 5:  # 确保parts列表长度足够
+                if len(parts) >= 5:  # Ensure parts list is long enough
                     train_data_loss.append(float(parts[1].split(':')[1]))
                     train_PDE_loss.append(float(parts[2].split(':')[1]))
                     train_phy_loss.append(float(parts[3].split(':')[1]))
                     train_total_loss.append(float(parts[4].split(':')[1]))
             elif '[Train]' in line:
                 parts = line.split(',')
-                if len(parts) >= 5:  # 确保parts列表长度足够
+                if len(parts) >= 5:  # Ensure parts list is long enough
                     train_data_loss.append(float(parts[1].split(':')[1]))
                     train_PDE_loss.append(float(parts[2].split(':')[1]))
                     train_phy_loss.append(float(parts[3].split(':')[1]))
@@ -89,7 +85,6 @@ class Results:
         data_dict['test_mse'] = test_mse
         data_dict['test_epoch'] = test_epoch
 
-        # 解析数据路径
         # Parse the data path
         line1 = lines[1]
         if '.csv' in line1:
@@ -109,9 +104,7 @@ class Results:
 
     def parser_label(self):
         '''
-        解析预测结果
-        English:
-            Parse the prediction results
+        Parse the prediction results
         :return:
         '''
         pred_label = np.load(self.pred_label).reshape(-1)
@@ -124,7 +117,6 @@ class Results:
         plt.show()
 
 
-        # 用来保存每个电池的预测结果
         # Save the prediction results of each battery
         pred_label_list = []
         true_label_list = []
@@ -166,9 +158,7 @@ class Results:
 
     def get_test_results(self, e):
         '''
-        解析训练和测试数据中的电池id
-        English:
-            Parse the battery id in the training and test sets
+        Parse the battery id in the training and test sets
         :param e: experiment id
         :return:
         '''
@@ -177,30 +167,28 @@ class Results:
         results_dict = self.parser_label()
         results_dict['channel'] = log_dict['IDs_2']
 
-        # 检查数组长度是否一致
+        # Check if the array lengths are consistent
         lengths = [len(v) for v in results_dict.values() if isinstance(v, list)]
         if len(set(lengths)) > 1:
-            # 使用 NaN 填充较短的数组
+            # Fill shorter arrays with NaN
             max_length = max(lengths)
             for key in results_dict:
                 if isinstance(results_dict[key], list) and len(results_dict[key]) < max_length:
                     results_dict[key].extend([np.nan] * (max_length - len(results_dict[key])))
 
-        # 转换为 DataFrame 以便删除包含 NaN 的行
+        # Convert to DataFrame to delete rows containing NaN
         results_df = pd.DataFrame.from_dict(results_dict)
 
-        # 删除包含 NaN 的行
+        # Delete rows containing NaN
         results_df = results_df.dropna()
 
-        # 将过滤后的结果转换回字典
+        # Convert the filtered results back to a dictionary
         return results_df.to_dict(orient='list')
 
     def get_battery_average(self):
         '''
-        计算每次实验中所有电池的平均值
-        English:
-            Calculate the average value of all batteries in each experiment
-        :return: dataframe，包含所有电池的平均值，每一行表示一个实验 (including the average value of all batteries, each row represents an experiment)
+        Calculate the average value of all batteries in each experiment
+        :return: dataframe, including the average value of all batteries, each row represents an experiment
         '''
         df_mean_values = []
         for e in range(1,11):
@@ -217,10 +205,8 @@ class Results:
 
     def get_experiment_average(self):
         '''
-        分别获取每个测试电池在所有实验中的平均值
-        English:
-            Get the average value of each test battery in all experiments
-        :return: dataframe，每一行是一个电池在10次实验中的平均值 (each row is the average value of a battery in 10 experiments)
+        Get the average value of each test battery in all experiments
+        :return: dataframe, each row is the average value of a battery in 10 experiments
         '''
         df_value_list = []
         for i in range(1, 11):
