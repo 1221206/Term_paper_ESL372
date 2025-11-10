@@ -43,7 +43,7 @@ def get_args():
     return args
 
 def load_MyMIT_data(args):
-    root = 'Dataset_plot/My data/MIT data'
+    root = '..\MIT_data'
     train_list = []
     test_list = []
     for batch in ['2017-05-12','2017-06-30','2018-04-12']:

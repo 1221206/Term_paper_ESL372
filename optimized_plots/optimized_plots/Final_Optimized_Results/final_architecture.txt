@@ -1,0 +1,21 @@
+1 Model: KAN-PINN                                                                                                          │
+│     2                                                                                                                          │
+│     3 Solution_u Network (KAN):                                                                                                │
+│     4 Input dimension: 17                                                                                                      │
+│     5 Output dimension: 32                                                                                                     │
+│     6 Number of hidden layers: 4                                                                                               │
+│     7 Number of neurons in each hidden layer: 60                                                                               │
+│     8                                                                                                                          │
+│     9 Dynamical_F Network (KAN):                                                                                               │
+│    10 Input dimension: 35                                                                                                      │
+│    11 Output dimension: 1                                                                                                      │
+│    12 Number of hidden layers: 3                                                                                               │
+│    13 Number of neurons in each hidden layer: 60
+        predictor: 32-neuron hidden layer, and a 1-neuron output for SOH prediction.
+
+        Final model Percentage metrics-----
+        Mean Squared Error (MSE): 0.00011239
+        Mean Absolute Error (MASE): 0.007257
+        Mean Absolute Percentage Error (MAPE): 0.007763
+        Root Mean Squarred Error(RMSE): 0.010601
+        R-squared (R2): 0.916979

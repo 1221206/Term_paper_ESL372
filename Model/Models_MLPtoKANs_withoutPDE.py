@@ -155,6 +155,27 @@ class PINN(nn.Module):
             if param.requires_grad:
                 l2_reg += torch.sum(param ** 2)
         return self.l2_lambda * l2_reg
+    def save_model_architecture(self, metrics):
+        architecture_path = os.path.join(self.args.save_folder, 'model_architecture.txt')
+        with open(architecture_path, 'w') as f:
+            f.write("Model: KAN-PINN (without PDE)\n\n")
+            f.write("Solution_u Network (KAN):\n")
+            f.write(f"Input dimension: 17\n")
+            f.write(f"Output dimension: 1\n")
+            f.write(f"Number of hidden layers: 4\n")
+            f.write(f"Number of neurons in each hidden layer: 60\n\n")
+            f.write("Dynamical_F Network (KAN):\n")
+            f.write(f"Input dimension: 35\n")
+            f.write(f"Output dimension: 1\n")
+            f.write(f"Number of hidden layers: 3\n")
+            f.write(f"Number of neurons in each hidden layer: {self.args.F_hidden_dim}\n\n")
+            f.write("--- Final Model Performance Metrics ---\n")
+            f.write(f"  Mean Squared Error (MSE): {metrics[2]:.8f}\n")
+            f.write(f"  Mean Absolute Error (MAE): {metrics[0]:.6f}\n")
+            f.write(f"  Mean Absolute Percentage Error (MAPE): {metrics[1]:.6f}\n")
+            f.write(f"  Root Mean Squared Error (RMSE): {metrics[3]:.6f}\n")
+            f.write(f"  R-squared (R2): {metrics[4]:.6f}\n")
+            f.write("---------------------------------------\n")
     def _save_args(self):
         if self.args.log_dir:
             self.logger.info("Args:")
@@ -274,8 +295,8 @@ class PINN(nn.Module):
             if valid_mse < min_valid_mse and testloader is not None:
                 min_valid_mse = valid_mse
                 true_label, pred_label = self.Test(testloader)
-                [MAE, MAPE, MSE, RMSE] = eval_metrix(pred_label, true_label)
-                info = '[Test] MSE: {:.8f}, MAE: {:.6f}, MAPE: {:.6f}, RMSE: {:.6f}'.format(MSE, MAE, MAPE, RMSE)
+                [MAE, MAPE, MSE, RMSE, R2] = eval_metrix(pred_label, true_label)
+                info = '[Test] MSE: {:.8f}, MAE: {:.6f}, MAPE: {:.6f}, RMSE: {:.6f}, R2: {:.6f}'.format(MSE, MAE, MAPE, RMSE, R2)
                 self.logger.info(info)
                 early_stop = 0
 
@@ -285,6 +306,7 @@ class PINN(nn.Module):
                 if self.args.save_folder is not None:
                     np.save(os.path.join(self.args.save_folder, 'true_label.npy'), true_label)
                     np.save(os.path.join(self.args.save_folder, 'pred_label.npy'), pred_label)
+                    self.save_model_architecture([MAE, MAPE, MSE, RMSE, R2])
                 
 
             if self.args.early_stop is not None and early_stop > self.args.early_stop:

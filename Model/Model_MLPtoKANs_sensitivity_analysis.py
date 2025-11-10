@@ -297,11 +297,11 @@ class PINN(nn.Module):
                 min_valid_mse = valid_mse
                 best_epoch = e
                 true_label, pred_label = self.Test(testloader)
-                [MAE, MAPE, MSE, RMSE] = eval_metrix(pred_label, true_label)
+                [MAE, MAPE, MSE, RMSE, R2] = eval_metrix(pred_label, true_label)
 
-                best_metrics = {'MSE': MSE, 'MAE': MAE, 'MAPE': MAPE, 'RMSE': RMSE}
+                best_metrics = {'MSE': MSE, 'MAE': MAE, 'MAPE': MAPE, 'RMSE': RMSE, 'R2': R2}
 
-                info = '[Test] MSE: {:.8f}, MAE: {:.6f}, MAPE: {:.6f}, RMSE: {:.6f}'.format(MSE, MAE, MAPE, RMSE)
+                info = '[Test] MSE: {:.8f}, MAE: {:.6f}, MAPE: {:.6f}, RMSE: {:.6f}, R2: {:.6f}'.format(MSE, MAE, MAPE, RMSE, R2)
                 self.logger.info(info)
                 early_stop = 0
 
@@ -340,6 +340,7 @@ class PINN(nn.Module):
                 f.write(f"  MAE: {best_metrics['MAE']:.6f}\n")
                 f.write(f"  MAPE: {best_metrics['MAPE']:.6f}\n")
                 f.write(f"  RMSE: {best_metrics['RMSE']:.6f}\n")
+                f.write(f"  R2: {best_metrics['R2']:.6f}\n")
 
         self.clear_logger()
         if self.args.save_folder is not None:

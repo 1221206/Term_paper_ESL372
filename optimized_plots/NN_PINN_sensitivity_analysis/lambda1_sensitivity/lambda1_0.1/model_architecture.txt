@@ -1,0 +1,21 @@
+Model: NN-PINN
+
+Solution_u Network (NN):
+Input dimension: 17
+Output dimension: 1
+Number of hidden layers: 3
+Number of neurons in each hidden layer: 60
+
+Dynamical_F Network (NN):
+Input dimension: 19
+Output dimension: 1
+Number of hidden layers: 3
+Number of neurons in each hidden layer: 60
+
+--- Final Model Performance Metrics ---
+  Mean Squared Error (MSE): 0.00019030
+  Mean Absolute Error (MAE): 0.010461
+  Mean Absolute Percentage Error (MAPE): 0.011177
+  Root Mean Squared Error (RMSE): 0.013795
+  R-squared (R2): 0.819517
+---------------------------------------

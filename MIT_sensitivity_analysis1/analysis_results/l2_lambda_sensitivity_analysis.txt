@@ -1,0 +1,18 @@
+ sensitivity analysis results - l2_lambda
+==============================
+sensitivity score: 0.8800
+
+spearman correlation coeff (Spearman):
+  MSE: 0.8000 (p=0.2000)
+  MAE: 1.0000 (p=0.0000)
+  MAPE: 0.8000 (p=0.2000)
+  RMSE: 0.8000 (p=0.2000)
+  convergence_epoch: -1.0000 (p=0.0000)
+
+Best param values:
+ W.R.T MSE: l2_lambda=0.000010 (MSE=0.000100)
+ W.R.T MAE: l2_lambda=0.000001 (MAE=0.006933)
+
+ sensitive region
+  Interval with largest MSE change rate: l2_lambda ∈ [0.000010, 0.000100]
+  MSE change rate in the interval: 0.333444 per unit

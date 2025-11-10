@@ -64,9 +64,9 @@ class Predictor(nn.Module):
     def forward(self, x):
         return self.net(x)
 class Solution_u(nn.Module):
-    def __init__(self):
+    def __init__(self, u_hidden_dim=60, u_layers_num=4):
         super(Solution_u, self).__init__()
-        self.encoder = KAN(input_dim=17, output_dim=32, hidden_dim=60, num_hidden_layers=4,dropout=0.0)
+        self.encoder = KAN(input_dim=17, output_dim=32, hidden_dim=u_hidden_dim, num_hidden_layers=u_layers_num, dropout=0.0)
         self.predictor = Predictor(input_dim=32)
         self._init_weights()
 

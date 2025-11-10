@@ -1,0 +1,20 @@
+Model: KANN + MLP
+
+KAN Encoder:
+  Input dimension: 17
+  Output dimension: 32
+  Number of hidden layers: 5
+  Number of neurons in each hidden layer: 120
+
+MLP Predictor:
+  Input dimension: 32
+  Hidden dimension: 32
+  Output dimension: 1
+
+--- Final Model Performance Metrics ---
+  Mean Squared Error (MSE): 0.00020988
+  Mean Absolute Error (MAE): 0.009218
+  Mean Absolute Percentage Error (MAPE): 0.009916
+  Root Mean Squared Error (RMSE): 0.014487
+  R-squared (R2): 0.830634
+---------------------------------------

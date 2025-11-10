@@ -1,0 +1,21 @@
+Model: KAN-PINN
+
+Solution_u Network (KAN):
+  Input dimension: 17
+  Output dimension: 1
+  Number of hidden layers: 3
+  Number of neurons in each hidden layer: 60
+
+Dynamical_F Network (MLP):
+  Input dimension: 35
+  Output dimension: 1
+  Number of hidden layers: 3
+  Number of neurons in each hidden layer: 60
+
+--- Final Model Performance Metrics ---
+  Mean Squared Error (MSE): 0.00010954
+  Mean Absolute Error (MAE): 0.007262
+  Mean Absolute Percentage Error (MAPE): 0.007779
+  Root Mean Squared Error (RMSE): 0.010466
+  R-squared (R2): 0.918863
+---------------------------------------

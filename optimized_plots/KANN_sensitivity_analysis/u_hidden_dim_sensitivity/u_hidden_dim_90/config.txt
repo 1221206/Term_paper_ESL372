@@ -1,0 +1,12 @@
+data: MyMIT
+batch_size: 512
+normalization_method: min-max
+epochs: 200
+early_stop: 25
+warmup_lr: 0.0001
+lr: 3e-05
+u_layers_num: 3
+u_hidden_dim: 90
+l2_lambda: 0.001
+log_dir: logging.txt
+save_folder: optimized_plots/KANN_sensitivity_analysis\u_hidden_dim_sensitivity\u_hidden_dim_90
