@@ -88,7 +88,8 @@ class DF():
         :return: Dataloader.
         '''
         X1, X2, Y1, Y2 = [], [], [], []  # Store features and labels
-        if hasattr(self.args, 'log_dir') and hasattr(self.args, 'save_folder'):  # Check for log and save directories
+        if hasattr(self.args, 'log_dir') and self.args.log_dir is not None and \
+           hasattr(self.args, 'save_folder') and self.args.save_folder is not None:
             save_name = os.path.join(self.args.save_folder, self.args.log_dir)  # Create save path
             write_to_txt(save_name, 'data path:')  # Write header to the log file
             write_to_txt(save_name, str(path_list))  # Log file paths
