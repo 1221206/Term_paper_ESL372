@@ -6,6 +6,7 @@ import torch
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+import seaborn as sns
 from dataloader.dataloader import MyMITdata
 import argparse
 
@@ -17,6 +18,7 @@ def get_args():
     parser.add_argument('--batch_size', type=int, default=512, help='batch size')
     parser.add_argument('--log_dir', type=str, default=None, help='log dir')
     parser.add_argument('--save_folder', type=str, default=None, help='save folder')
+    parser.add_argument('--output_dir', type=str, default='feature_analysis_results', help='Directory to save output plots')
     args = parser.parse_args()
     return args
 
@@ -27,7 +29,7 @@ def load_all_data_as_numpy(args):
     root = args.data_root
     if not os.path.exists(root):
         print(f"Error: The specified data root '{root}' does not exist.")
-        return None
+        return None, None
 
     all_files = []
     for batch in ['2017-05-12', '2017-06-30', '2018-04-12']:
@@ -46,27 +48,34 @@ def load_all_data_as_numpy(args):
     
     # Extract tensors and convert to numpy
     x1_list = []
-    for x1, _, _, _ in all_data_loader['test_3']:
+    y1_list = []
+    for x1, _, y1, _ in all_data_loader['test_3']:
         x1_list.append(x1.numpy())
+        y1_list.append(y1.numpy())
         
     if not x1_list:
         print("No data loaded. Please check the data path and file structure.")
-        return None
+        return None, None
 
     features = np.concatenate(x1_list, axis=0)
-    return features
+    soh = np.concatenate(y1_list, axis=0)
+    return features, soh
 
 def main():
     args = get_args()
     
+    # Create output directory if it doesn't exist
+    if not os.path.exists(args.output_dir):
+        os.makedirs(args.output_dir)
+        
     # 1. Load data
     print("Loading data...")
-    features = load_all_data_as_numpy(args)
+    features, soh = load_all_data_as_numpy(args)
     
     if features is None:
         return
         
-    print(f"Data loaded successfully. Feature matrix shape: {features.shape}")
+    print(f"Data loaded successfully. Feature matrix shape: {features.shape}, SOH shape: {soh.shape}")
 
     # The dataloader already normalizes the data, but for PCA it's good practice to scale it.
     # Since the dataloader uses min-max to [-1, 1], we can proceed.
@@ -95,7 +104,7 @@ def main():
     plt.legend(loc='best')
     plt.tight_layout()
     plt.title('PCA Explained Variance')
-    pca_plot_path = 'pca_explained_variance.png'
+    pca_plot_path = os.path.join(args.output_dir, 'pca_explained_variance.png')
     plt.savefig(pca_plot_path)
     print(f"Saved PCA explained variance plot to {pca_plot_path}")
     plt.close()
@@ -118,9 +127,26 @@ def main():
     plt.xlabel('Index')
     plt.ylabel('Singular Value')
     plt.grid(True)
-    svd_plot_path = 'svd_singular_values.png'
+    svd_plot_path = os.path.join(args.output_dir, 'svd_singular_values.png')
     plt.savefig(svd_plot_path)
     print(f"Saved SVD singular values plot to {svd_plot_path}")
+    plt.close()
+
+    # 4. Correlation heatmap
+    print("\nGenerating correlation heatmap...")
+    feature_df = pd.DataFrame(features, columns=[f'Feature_{i+1}' for i in range(features.shape[1])])
+    soh_df = pd.DataFrame(soh, columns=['SOH'])
+    combined_df = pd.concat([feature_df, soh_df], axis=1)
+    
+    correlation_matrix = combined_df.corr()
+    
+    plt.figure(figsize=(12, 10))
+    sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap='coolwarm')
+    plt.title('Correlation Heatmap between Features and SOH')
+    plt.tight_layout()
+    heatmap_path = os.path.join(args.output_dir, 'feature_soh_correlation_heatmap.png')
+    plt.savefig(heatmap_path)
+    print(f"Saved correlation heatmap to {heatmap_path}")
     plt.close()
 
 
