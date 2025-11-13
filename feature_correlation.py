@@ -92,6 +92,21 @@ def main():
     print(f"Explained variance by component: {explained_variance_ratio}")
     print(f"Cumulative explained variance: {cumulative_explained_variance}")
 
+    # Analyze component loadings
+    print("\nPCA Component Loadings:")
+    loadings_df = pd.DataFrame(pca.components_, columns=[f'Feature_{i+1}' for i in range(features.shape[1])], index=[f'PC_{i+1}' for i in range(pca.n_components_)])
+    print(loadings_df)
+
+    # Plot PCA loadings heatmap
+    plt.figure(figsize=(14, 10))
+    sns.heatmap(loadings_df, annot=True, fmt='.2f', cmap='viridis')
+    plt.title('PCA Component Loadings')
+    plt.tight_layout()
+    loadings_heatmap_path = os.path.join(args.output_dir, 'pca_loadings_heatmap.png')
+    plt.savefig(loadings_heatmap_path)
+    print(f"\nSaved PCA loadings heatmap to {loadings_heatmap_path}")
+    plt.close()
+
     # Plot PCA explained variance
     plt.figure(figsize=(10, 6))
     plt.bar(range(1, len(explained_variance_ratio) + 1), explained_variance_ratio, alpha=0.5, align='center',
