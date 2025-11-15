@@ -1,0 +1,599 @@
+2025-11-15 22:50 - function:_save_args - INFO - Args:
+2025-11-15 22:50 - function:_save_args - INFO - 	batch_size:512
+2025-11-15 22:50 - function:_save_args - INFO - 	epochs:200
+2025-11-15 22:50 - function:_save_args - INFO - 	early_stop:25
+2025-11-15 22:50 - function:_save_args - INFO - 	warmup_lr:0.0001
+2025-11-15 22:50 - function:_save_args - INFO - 	lr:3e-05
+2025-11-15 22:50 - function:_save_args - INFO - 	lr_F:1e-05
+2025-11-15 22:50 - function:_save_args - INFO - 	u_layers_num:3
+2025-11-15 22:50 - function:_save_args - INFO - 	u_hidden_dim:60
+2025-11-15 22:50 - function:_save_args - INFO - 	F_layers_num:3
+2025-11-15 22:50 - function:_save_args - INFO - 	F_hidden_dim:60
+2025-11-15 22:50 - function:_save_args - INFO - 	lambda1:0.5
+2025-11-15 22:50 - function:_save_args - INFO - 	lambda2:2.0
+2025-11-15 22:50 - function:_save_args - INFO - 	lambda3:0.01
+2025-11-15 22:50 - function:_save_args - INFO - 	l2_lambda:0.0
+2025-11-15 22:50 - function:_save_args - INFO - 	log_dir:final_model_log.txt
+2025-11-15 22:50 - function:_save_args - INFO - 	save_folder:Term_paper_ESL372/KANN_PINN_with_PCA/with_11_components/final_model
+2025-11-15 22:50 - function:Train - INFO - [Train] epoch:1, lr:0.000100, total loss:0.253449
+2025-11-15 22:50 - function:Train - INFO - [Valid] epoch:1, MSE: 0.10444565117359161
+2025-11-15 22:50 - function:Train - INFO - [Test] MSE: 0.10466036, MAE: 0.292157, MAPE: 0.499460, RMSE: 0.323513, R2: -3.447803
+2025-11-15 22:50 - function:plot - INFO - Saved plot for epoch 1 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_1.png
+2025-11-15 22:50 - function:Train - INFO - [Train] epoch:2, lr:0.000100, total loss:0.029600
+2025-11-15 22:50 - function:Train - INFO - [Valid] epoch:2, MSE: 0.018776994198560715
+2025-11-15 22:50 - function:Train - INFO - [Test] MSE: 0.01888428, MAE: 0.110296, MAPE: 0.128258, RMSE: 0.137420, R2: -0.072188
+2025-11-15 22:50 - function:plot - INFO - Saved plot for epoch 2 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_2.png
+2025-11-15 22:50 - function:Train - INFO - [Train] epoch:3, lr:0.000100, total loss:0.012056
+2025-11-15 22:50 - function:Train - INFO - [Valid] epoch:3, MSE: 0.01214549969881773
+2025-11-15 22:50 - function:Train - INFO - [Test] MSE: 0.01215060, MAE: 0.087771, MAPE: 0.099445, RMSE: 0.110230, R2: -0.033760
+2025-11-15 22:50 - function:plot - INFO - Saved plot for epoch 3 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_3.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:4, lr:0.000100, total loss:0.008241
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:4, MSE: 0.008618222549557686
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00860485, MAE: 0.073375, MAPE: 0.081804, RMSE: 0.092762, R2: -0.006413
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 4 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_4.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:5, lr:0.000100, total loss:0.005934
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:5, MSE: 0.005988588556647301
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00598129, MAE: 0.060697, MAPE: 0.066760, RMSE: 0.077339, R2: 0.027291
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 5 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_5.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:6, lr:0.000100, total loss:0.004172
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:6, MSE: 0.003919730428606272
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00391934, MAE: 0.048762, MAPE: 0.053274, RMSE: 0.062605, R2: 0.106079
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 6 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_6.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:7, lr:0.000100, total loss:0.002886
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:7, MSE: 0.002490339567884803
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00249070, MAE: 0.038478, MAPE: 0.041661, RMSE: 0.049907, R2: 0.191423
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 7 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_7.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:8, lr:0.000100, total loss:0.002027
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:8, MSE: 0.0016445550136268139
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00164220, MAE: 0.030940, MAPE: 0.033458, RMSE: 0.040524, R2: 0.267985
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 8 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_8.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:9, lr:0.000100, total loss:0.001471
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:9, MSE: 0.00112519646063447
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00112410, MAE: 0.025346, MAPE: 0.027288, RMSE: 0.033528, R2: 0.396502
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 9 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_9.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:10, lr:0.000099, total loss:0.001117
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:10, MSE: 0.0008254572749137878
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00082293, MAE: 0.021482, MAPE: 0.023085, RMSE: 0.028687, R2: 0.484508
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 10 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_10.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:11, lr:0.000099, total loss:0.000890
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:11, MSE: 0.0006446007173508406
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00064100, MAE: 0.018776, MAPE: 0.020173, RMSE: 0.025318, R2: 0.566541
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 11 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_11.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:12, lr:0.000099, total loss:0.000739
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:12, MSE: 0.0005399497458711267
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00053487, MAE: 0.016969, MAPE: 0.018213, RMSE: 0.023127, R2: 0.608846
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 12 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_12.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:13, lr:0.000099, total loss:0.000633
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:13, MSE: 0.0004712291993200779
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00046446, MAE: 0.015677, MAPE: 0.016849, RMSE: 0.021551, R2: 0.648718
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 13 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_13.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:14, lr:0.000099, total loss:0.000555
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:14, MSE: 0.00042639952152967453
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00041814, MAE: 0.014779, MAPE: 0.015896, RMSE: 0.020448, R2: 0.669168
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 14 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_14.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:15, lr:0.000099, total loss:0.000493
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:15, MSE: 0.0003938260197173804
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00038469, MAE: 0.014056, MAPE: 0.015107, RMSE: 0.019613, R2: 0.686709
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 15 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_15.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:16, lr:0.000098, total loss:0.000446
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:16, MSE: 0.00036733323941007257
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00035814, MAE: 0.013466, MAPE: 0.014484, RMSE: 0.018925, R2: 0.711726
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 16 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_16.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:17, lr:0.000098, total loss:0.000407
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:17, MSE: 0.0003484702028799802
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00033871, MAE: 0.013016, MAPE: 0.014001, RMSE: 0.018404, R2: 0.721348
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 17 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_17.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:18, lr:0.000098, total loss:0.000374
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:18, MSE: 0.0003323717101011425
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00032280, MAE: 0.012641, MAPE: 0.013602, RMSE: 0.017967, R2: 0.738634
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 18 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_18.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:19, lr:0.000098, total loss:0.000346
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:19, MSE: 0.0003210886789020151
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00031100, MAE: 0.012348, MAPE: 0.013279, RMSE: 0.017635, R2: 0.740548
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 19 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_19.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:20, lr:0.000098, total loss:0.000323
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:20, MSE: 0.0003079956804867834
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00029819, MAE: 0.012020, MAPE: 0.012940, RMSE: 0.017268, R2: 0.757588
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 20 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_20.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:21, lr:0.000097, total loss:0.000303
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:21, MSE: 0.0003001500153914094
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00028967, MAE: 0.011825, MAPE: 0.012732, RMSE: 0.017020, R2: 0.755769
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 21 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_21.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:22, lr:0.000097, total loss:0.000285
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:22, MSE: 0.0002913807693403214
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00028122, MAE: 0.011631, MAPE: 0.012537, RMSE: 0.016770, R2: 0.769905
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 22 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_22.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:23, lr:0.000097, total loss:0.000271
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:23, MSE: 0.00028351094806566834
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00027346, MAE: 0.011420, MAPE: 0.012312, RMSE: 0.016537, R2: 0.778993
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 23 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_23.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:24, lr:0.000096, total loss:0.000258
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:24, MSE: 0.000278122432064265
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00026748, MAE: 0.011215, MAPE: 0.012075, RMSE: 0.016355, R2: 0.780688
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 24 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_24.png
+2025-11-15 22:51 - function:Train - INFO - [Train] epoch:25, lr:0.000096, total loss:0.000246
+2025-11-15 22:51 - function:Train - INFO - [Valid] epoch:25, MSE: 0.0002771755389403552
+2025-11-15 22:51 - function:Train - INFO - [Test] MSE: 0.00026707, MAE: 0.011356, MAPE: 0.012262, RMSE: 0.016342, R2: 0.784070
+2025-11-15 22:51 - function:plot - INFO - Saved plot for epoch 25 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_25.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:26, lr:0.000096, total loss:0.000236
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:26, MSE: 0.00026789974072016776
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00025681, MAE: 0.010965, MAPE: 0.011818, RMSE: 0.016025, R2: 0.787388
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 26 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_26.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:27, lr:0.000096, total loss:0.000227
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:27, MSE: 0.00026312179397791624
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00025156, MAE: 0.010796, MAPE: 0.011631, RMSE: 0.015861, R2: 0.790902
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 27 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_27.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:28, lr:0.000095, total loss:0.000219
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:28, MSE: 0.0002586714690551162
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00024759, MAE: 0.010733, MAPE: 0.011572, RMSE: 0.015735, R2: 0.797584
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 28 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_28.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:29, lr:0.000095, total loss:0.000211
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:29, MSE: 0.0002549220807850361
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00024336, MAE: 0.010589, MAPE: 0.011413, RMSE: 0.015600, R2: 0.800095
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 29 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_29.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:30, lr:0.000095, total loss:0.000204
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:30, MSE: 0.0002514601801522076
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00023939, MAE: 0.010433, MAPE: 0.011234, RMSE: 0.015472, R2: 0.803806
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 30 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_30.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:31, lr:0.000094, total loss:0.000198
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:31, MSE: 0.000247329066041857
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00023572, MAE: 0.010370, MAPE: 0.011178, RMSE: 0.015353, R2: 0.809549
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 31 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_31.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:32, lr:0.000094, total loss:0.000192
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:32, MSE: 0.00024622338241897523
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00023386, MAE: 0.010276, MAPE: 0.011062, RMSE: 0.015292, R2: 0.807484
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 32 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_32.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:33, lr:0.000093, total loss:0.000187
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:33, MSE: 0.00024183926871046424
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00022963, MAE: 0.010187, MAPE: 0.010974, RMSE: 0.015154, R2: 0.813398
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 33 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_33.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:34, lr:0.000093, total loss:0.000182
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:34, MSE: 0.00023818995396140963
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00022683, MAE: 0.010150, MAPE: 0.010948, RMSE: 0.015061, R2: 0.823267
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 34 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_34.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:35, lr:0.000093, total loss:0.000177
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:35, MSE: 0.00023630584473721683
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00022398, MAE: 0.010086, MAPE: 0.010870, RMSE: 0.014966, R2: 0.813502
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 35 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_35.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:36, lr:0.000092, total loss:0.000174
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:36, MSE: 0.0002327082765987143
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00022061, MAE: 0.009982, MAPE: 0.010759, RMSE: 0.014853, R2: 0.819949
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 36 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_36.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:37, lr:0.000092, total loss:0.000170
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:37, MSE: 0.00023070267343427986
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00021914, MAE: 0.009997, MAPE: 0.010785, RMSE: 0.014803, R2: 0.824814
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 37 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_37.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:38, lr:0.000091, total loss:0.000166
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:38, MSE: 0.00022978628112468868
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00021715, MAE: 0.009837, MAPE: 0.010587, RMSE: 0.014736, R2: 0.821796
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 38 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_38.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:39, lr:0.000091, total loss:0.000162
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:39, MSE: 0.00022440207249019295
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00021251, MAE: 0.009781, MAPE: 0.010546, RMSE: 0.014578, R2: 0.831117
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 39 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_39.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:40, lr:0.000090, total loss:0.000159
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:40, MSE: 0.00022237244411371648
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00021023, MAE: 0.009724, MAPE: 0.010480, RMSE: 0.014499, R2: 0.827503
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 40 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_40.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:41, lr:0.000090, total loss:0.000156
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:41, MSE: 0.0002222180482931435
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00020961, MAE: 0.009620, MAPE: 0.010352, RMSE: 0.014478, R2: 0.829319
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 41 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_41.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:42, lr:0.000090, total loss:0.000152
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:42, MSE: 0.0002165174373658374
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00020486, MAE: 0.009589, MAPE: 0.010339, RMSE: 0.014313, R2: 0.838737
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 42 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_42.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:43, lr:0.000089, total loss:0.000149
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:43, MSE: 0.0002152371744159609
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00020379, MAE: 0.009633, MAPE: 0.010392, RMSE: 0.014276, R2: 0.838153
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 43 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_43.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:44, lr:0.000089, total loss:0.000147
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:44, MSE: 0.00021437759278342128
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00020213, MAE: 0.009451, MAPE: 0.010169, RMSE: 0.014217, R2: 0.838577
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 44 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_44.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:45, lr:0.000088, total loss:0.000144
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:45, MSE: 0.00021080003352835774
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00019984, MAE: 0.009546, MAPE: 0.010300, RMSE: 0.014136, R2: 0.843557
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 45 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_45.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:46, lr:0.000088, total loss:0.000141
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:46, MSE: 0.00020703207701444626
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00019561, MAE: 0.009309, MAPE: 0.010029, RMSE: 0.013986, R2: 0.848427
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 46 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_46.png
+2025-11-15 22:52 - function:Train - INFO - [Train] epoch:47, lr:0.000087, total loss:0.000139
+2025-11-15 22:52 - function:Train - INFO - [Valid] epoch:47, MSE: 0.00020479960949160159
+2025-11-15 22:52 - function:Train - INFO - [Test] MSE: 0.00019302, MAE: 0.009258, MAPE: 0.009976, RMSE: 0.013893, R2: 0.846218
+2025-11-15 22:52 - function:plot - INFO - Saved plot for epoch 47 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_47.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:48, lr:0.000086, total loss:0.000136
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:48, MSE: 0.00020309229148551822
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00019114, MAE: 0.009225, MAPE: 0.009940, RMSE: 0.013825, R2: 0.847424
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 48 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_48.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:49, lr:0.000086, total loss:0.000134
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:49, MSE: 0.00020066104480065405
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00018922, MAE: 0.009128, MAPE: 0.009835, RMSE: 0.013756, R2: 0.854496
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 49 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_49.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:50, lr:0.000085, total loss:0.000131
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:50, MSE: 0.00019922107458114624
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00018708, MAE: 0.009082, MAPE: 0.009781, RMSE: 0.013678, R2: 0.850903
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 50 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_50.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:51, lr:0.000085, total loss:0.000130
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:51, MSE: 0.00019795702246483415
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00018635, MAE: 0.009054, MAPE: 0.009744, RMSE: 0.013651, R2: 0.855561
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 51 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_51.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:52, lr:0.000084, total loss:0.000127
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:52, MSE: 0.00019761803559958935
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00018625, MAE: 0.009240, MAPE: 0.009966, RMSE: 0.013647, R2: 0.854374
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 52 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_52.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:53, lr:0.000084, total loss:0.000125
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:53, MSE: 0.0001946513366419822
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00018325, MAE: 0.009125, MAPE: 0.009841, RMSE: 0.013537, R2: 0.857245
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 53 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_53.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:54, lr:0.000083, total loss:0.000123
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:54, MSE: 0.00019130860164295882
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00017993, MAE: 0.008961, MAPE: 0.009659, RMSE: 0.013414, R2: 0.859799
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 54 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_54.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:55, lr:0.000082, total loss:0.000121
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:55, MSE: 0.00018935944535769522
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00017805, MAE: 0.008860, MAPE: 0.009542, RMSE: 0.013344, R2: 0.861646
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 55 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_55.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:56, lr:0.000082, total loss:0.000119
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:56, MSE: 0.00018762295076157898
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00017656, MAE: 0.008837, MAPE: 0.009518, RMSE: 0.013288, R2: 0.865920
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 56 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_56.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:57, lr:0.000081, total loss:0.000118
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:57, MSE: 0.00018724017718341202
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00017593, MAE: 0.008786, MAPE: 0.009453, RMSE: 0.013264, R2: 0.863587
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 57 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_57.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:58, lr:0.000081, total loss:0.000116
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:58, MSE: 0.00018339963571634144
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00017270, MAE: 0.008754, MAPE: 0.009433, RMSE: 0.013142, R2: 0.867680
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 58 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_58.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:59, lr:0.000080, total loss:0.000114
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:59, MSE: 0.00018176370940636843
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00017082, MAE: 0.008686, MAPE: 0.009354, RMSE: 0.013070, R2: 0.867123
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 59 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_59.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:60, lr:0.000079, total loss:0.000112
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:60, MSE: 0.00018251284200232476
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:61, lr:0.000079, total loss:0.000111
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:61, MSE: 0.0001783834013622254
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00016760, MAE: 0.008650, MAPE: 0.009318, RMSE: 0.012946, R2: 0.870335
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 61 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_61.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:62, lr:0.000078, total loss:0.000109
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:62, MSE: 0.0001767061767168343
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00016609, MAE: 0.008560, MAPE: 0.009215, RMSE: 0.012888, R2: 0.873700
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 62 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_62.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:63, lr:0.000077, total loss:0.000108
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:63, MSE: 0.0001760421582730487
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00016498, MAE: 0.008528, MAPE: 0.009176, RMSE: 0.012844, R2: 0.873076
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 63 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_63.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:64, lr:0.000077, total loss:0.000106
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:64, MSE: 0.00017371402645949274
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00016290, MAE: 0.008549, MAPE: 0.009209, RMSE: 0.012763, R2: 0.874938
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 64 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_64.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:65, lr:0.000076, total loss:0.000105
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:65, MSE: 0.00017263588961213827
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00016200, MAE: 0.008457, MAPE: 0.009100, RMSE: 0.012728, R2: 0.878461
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 65 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_65.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:66, lr:0.000075, total loss:0.000103
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:66, MSE: 0.00017032618052326143
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00015945, MAE: 0.008422, MAPE: 0.009066, RMSE: 0.012627, R2: 0.877345
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 66 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_66.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:67, lr:0.000075, total loss:0.000102
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:67, MSE: 0.00016917992616072297
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00015821, MAE: 0.008425, MAPE: 0.009072, RMSE: 0.012578, R2: 0.877372
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 67 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_67.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:68, lr:0.000074, total loss:0.000100
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:68, MSE: 0.0001677744003245607
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00015695, MAE: 0.008429, MAPE: 0.009078, RMSE: 0.012528, R2: 0.879196
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 68 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_68.png
+2025-11-15 22:53 - function:Train - INFO - [Train] epoch:69, lr:0.000073, total loss:0.000099
+2025-11-15 22:53 - function:Train - INFO - [Valid] epoch:69, MSE: 0.00016688471077941358
+2025-11-15 22:53 - function:Train - INFO - [Test] MSE: 0.00015646, MAE: 0.008441, MAPE: 0.009097, RMSE: 0.012508, R2: 0.882822
+2025-11-15 22:53 - function:plot - INFO - Saved plot for epoch 69 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_69.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:70, lr:0.000073, total loss:0.000097
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:70, MSE: 0.000165724239195697
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00015493, MAE: 0.008427, MAPE: 0.009075, RMSE: 0.012447, R2: 0.879431
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 70 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_70.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:71, lr:0.000072, total loss:0.000096
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:71, MSE: 0.00016302772564813495
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00015257, MAE: 0.008210, MAPE: 0.008833, RMSE: 0.012352, R2: 0.885316
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 71 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_71.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:72, lr:0.000071, total loss:0.000095
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:72, MSE: 0.00016134759061969817
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00015107, MAE: 0.008255, MAPE: 0.008891, RMSE: 0.012291, R2: 0.885727
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 72 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_72.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:73, lr:0.000071, total loss:0.000093
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:73, MSE: 0.0001616891531739384
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:74, lr:0.000070, total loss:0.000092
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:74, MSE: 0.0001600447722012177
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00015006, MAE: 0.008274, MAPE: 0.008920, RMSE: 0.012250, R2: 0.889388
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 74 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_74.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:75, lr:0.000069, total loss:0.000091
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:75, MSE: 0.00015821111446712166
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00014790, MAE: 0.008059, MAPE: 0.008663, RMSE: 0.012161, R2: 0.887091
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 75 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_75.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:76, lr:0.000068, total loss:0.000090
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:76, MSE: 0.00015540761523880064
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00014534, MAE: 0.008034, MAPE: 0.008644, RMSE: 0.012056, R2: 0.889935
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 76 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_76.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:77, lr:0.000068, total loss:0.000089
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:77, MSE: 0.00015701031952630728
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:78, lr:0.000067, total loss:0.000088
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:78, MSE: 0.0001528987631900236
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00014338, MAE: 0.007983, MAPE: 0.008590, RMSE: 0.011974, R2: 0.894175
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 78 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_78.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:79, lr:0.000066, total loss:0.000087
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:79, MSE: 0.0001520398654974997
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00014257, MAE: 0.008019, MAPE: 0.008638, RMSE: 0.011940, R2: 0.895107
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 79 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_79.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:80, lr:0.000065, total loss:0.000086
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:80, MSE: 0.0001535109186079353
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:81, lr:0.000065, total loss:0.000085
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:81, MSE: 0.00014972416101954877
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00014039, MAE: 0.007884, MAPE: 0.008476, RMSE: 0.011848, R2: 0.896402
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 81 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_81.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:82, lr:0.000064, total loss:0.000084
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:82, MSE: 0.00014834296598564833
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013902, MAE: 0.007934, MAPE: 0.008540, RMSE: 0.011791, R2: 0.895693
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 82 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_82.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:83, lr:0.000063, total loss:0.000083
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:83, MSE: 0.00014816710609011352
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013884, MAE: 0.007819, MAPE: 0.008403, RMSE: 0.011783, R2: 0.895006
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 83 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_83.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:84, lr:0.000062, total loss:0.000082
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:84, MSE: 0.000146489663165994
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013747, MAE: 0.007894, MAPE: 0.008499, RMSE: 0.011725, R2: 0.897316
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 84 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_84.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:85, lr:0.000062, total loss:0.000081
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:85, MSE: 0.00014538574032485485
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013605, MAE: 0.007779, MAPE: 0.008364, RMSE: 0.011664, R2: 0.896420
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 85 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_85.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:86, lr:0.000061, total loss:0.000080
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:86, MSE: 0.00014346973330248147
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013456, MAE: 0.007744, MAPE: 0.008332, RMSE: 0.011600, R2: 0.899471
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 86 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_86.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:87, lr:0.000060, total loss:0.000079
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:87, MSE: 0.0001423982612323016
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013375, MAE: 0.007715, MAPE: 0.008302, RMSE: 0.011565, R2: 0.900957
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 87 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_87.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:88, lr:0.000059, total loss:0.000079
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:88, MSE: 0.00014295705477707088
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:89, lr:0.000059, total loss:0.000078
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:89, MSE: 0.00014147248293738812
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013297, MAE: 0.007764, MAPE: 0.008358, RMSE: 0.011531, R2: 0.901112
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 89 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_89.png
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:90, lr:0.000058, total loss:0.000077
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:90, MSE: 0.00014158783596940339
+2025-11-15 22:54 - function:Train - INFO - [Train] epoch:91, lr:0.000057, total loss:0.000076
+2025-11-15 22:54 - function:Train - INFO - [Valid] epoch:91, MSE: 0.00013927453255746514
+2025-11-15 22:54 - function:Train - INFO - [Test] MSE: 0.00013094, MAE: 0.007668, MAPE: 0.008253, RMSE: 0.011443, R2: 0.903246
+2025-11-15 22:54 - function:plot - INFO - Saved plot for epoch 91 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_91.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:92, lr:0.000056, total loss:0.000075
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:92, MSE: 0.0001395327562931925
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:93, lr:0.000055, total loss:0.000075
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:93, MSE: 0.00013799959560856223
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012924, MAE: 0.007620, MAPE: 0.008196, RMSE: 0.011368, R2: 0.901798
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 93 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_93.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:94, lr:0.000055, total loss:0.000074
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:94, MSE: 0.00014091665798332542
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:95, lr:0.000054, total loss:0.000073
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:95, MSE: 0.00013537394988816231
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012742, MAE: 0.007522, MAPE: 0.008092, RMSE: 0.011288, R2: 0.906969
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 95 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_95.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:96, lr:0.000053, total loss:0.000072
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:96, MSE: 0.00013535487232729793
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012714, MAE: 0.007548, MAPE: 0.008122, RMSE: 0.011276, R2: 0.905613
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 96 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_96.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:97, lr:0.000052, total loss:0.000072
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:97, MSE: 0.0001366819633403793
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:98, lr:0.000052, total loss:0.000071
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:98, MSE: 0.00013371599197853357
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012554, MAE: 0.007427, MAPE: 0.007984, RMSE: 0.011204, R2: 0.907175
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 98 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_98.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:99, lr:0.000051, total loss:0.000070
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:99, MSE: 0.00013326105545274913
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012542, MAE: 0.007406, MAPE: 0.007958, RMSE: 0.011199, R2: 0.907503
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 99 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_99.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:100, lr:0.000050, total loss:0.000070
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:100, MSE: 0.00013234996004030108
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012472, MAE: 0.007459, MAPE: 0.008029, RMSE: 0.011168, R2: 0.909582
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 100 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_100.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:101, lr:0.000049, total loss:0.000069
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:101, MSE: 0.00013615997158922255
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:102, lr:0.000048, total loss:0.000069
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:102, MSE: 0.00013082764053251594
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012280, MAE: 0.007370, MAPE: 0.007929, RMSE: 0.011082, R2: 0.909877
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 102 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_102.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:103, lr:0.000048, total loss:0.000068
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:103, MSE: 0.00013008898531552404
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012231, MAE: 0.007347, MAPE: 0.007902, RMSE: 0.011059, R2: 0.909810
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 103 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_103.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:104, lr:0.000047, total loss:0.000068
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:104, MSE: 0.00012941713794134557
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012175, MAE: 0.007319, MAPE: 0.007872, RMSE: 0.011034, R2: 0.911545
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 104 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_104.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:105, lr:0.000046, total loss:0.000067
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:105, MSE: 0.00012900581350550056
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012131, MAE: 0.007285, MAPE: 0.007833, RMSE: 0.011014, R2: 0.909846
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 105 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_105.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:106, lr:0.000045, total loss:0.000067
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:106, MSE: 0.00012901211448479444
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:107, lr:0.000045, total loss:0.000067
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:107, MSE: 0.00012821794371120632
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012029, MAE: 0.007252, MAPE: 0.007795, RMSE: 0.010967, R2: 0.910434
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 107 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_107.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:108, lr:0.000044, total loss:0.000066
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:108, MSE: 0.0001280430005863309
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00012058, MAE: 0.007319, MAPE: 0.007878, RMSE: 0.010981, R2: 0.913030
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 108 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_108.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:109, lr:0.000043, total loss:0.000065
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:109, MSE: 0.00012681963562499732
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00011913, MAE: 0.007215, MAPE: 0.007757, RMSE: 0.010915, R2: 0.912480
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 109 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_109.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:110, lr:0.000042, total loss:0.000065
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:110, MSE: 0.0001261863944819197
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00011880, MAE: 0.007207, MAPE: 0.007752, RMSE: 0.010900, R2: 0.913514
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 110 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_110.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:111, lr:0.000041, total loss:0.000064
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:111, MSE: 0.0001268618943868205
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:112, lr:0.000041, total loss:0.000064
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:112, MSE: 0.0001281426229979843
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:113, lr:0.000040, total loss:0.000064
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:113, MSE: 0.00012474306276999414
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00011750, MAE: 0.007137, MAPE: 0.007673, RMSE: 0.010840, R2: 0.914305
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 113 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_113.png
+2025-11-15 22:55 - function:Train - INFO - [Train] epoch:114, lr:0.000039, total loss:0.000063
+2025-11-15 22:55 - function:Train - INFO - [Valid] epoch:114, MSE: 0.0001242489815922454
+2025-11-15 22:55 - function:Train - INFO - [Test] MSE: 0.00011709, MAE: 0.007140, MAPE: 0.007680, RMSE: 0.010821, R2: 0.915962
+2025-11-15 22:55 - function:plot - INFO - Saved plot for epoch 114 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_114.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:115, lr:0.000038, total loss:0.000063
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:115, MSE: 0.00012376853555906564
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011658, MAE: 0.007131, MAPE: 0.007667, RMSE: 0.010797, R2: 0.914552
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 115 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_115.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:116, lr:0.000038, total loss:0.000063
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:116, MSE: 0.0001232598879141733
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011621, MAE: 0.007109, MAPE: 0.007644, RMSE: 0.010780, R2: 0.915989
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 116 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_116.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:117, lr:0.000037, total loss:0.000062
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:117, MSE: 0.00012306947610341012
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011606, MAE: 0.007134, MAPE: 0.007674, RMSE: 0.010773, R2: 0.915820
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 117 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_117.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:118, lr:0.000036, total loss:0.000062
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:118, MSE: 0.0001227708999067545
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011599, MAE: 0.007077, MAPE: 0.007605, RMSE: 0.010770, R2: 0.916968
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 118 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_118.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:119, lr:0.000035, total loss:0.000061
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:119, MSE: 0.00012196988973300904
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011505, MAE: 0.007060, MAPE: 0.007592, RMSE: 0.010726, R2: 0.916909
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 119 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_119.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:120, lr:0.000035, total loss:0.000061
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:120, MSE: 0.000121658384159673
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011472, MAE: 0.007065, MAPE: 0.007596, RMSE: 0.010711, R2: 0.916333
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 120 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_120.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:121, lr:0.000034, total loss:0.000061
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:121, MSE: 0.00012318578956183046
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:122, lr:0.000033, total loss:0.000060
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:122, MSE: 0.00012133894779253751
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011469, MAE: 0.007024, MAPE: 0.007546, RMSE: 0.010709, R2: 0.917374
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 122 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_122.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:123, lr:0.000032, total loss:0.000060
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:123, MSE: 0.00012032849917886779
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011372, MAE: 0.007017, MAPE: 0.007545, RMSE: 0.010664, R2: 0.918166
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 123 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_123.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:124, lr:0.000032, total loss:0.000060
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:124, MSE: 0.00011991124483756721
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011334, MAE: 0.007000, MAPE: 0.007527, RMSE: 0.010646, R2: 0.918710
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 124 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_124.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:125, lr:0.000031, total loss:0.000059
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:125, MSE: 0.00011983920558122918
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011308, MAE: 0.007000, MAPE: 0.007524, RMSE: 0.010634, R2: 0.917263
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 125 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_125.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:126, lr:0.000030, total loss:0.000059
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:126, MSE: 0.00011954530054936185
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011276, MAE: 0.007000, MAPE: 0.007526, RMSE: 0.010619, R2: 0.917829
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 126 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_126.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:127, lr:0.000029, total loss:0.000059
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:127, MSE: 0.00011985730088781565
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:128, lr:0.000029, total loss:0.000059
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:128, MSE: 0.00011887550499523059
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011220, MAE: 0.006972, MAPE: 0.007496, RMSE: 0.010593, R2: 0.918675
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 128 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_128.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:129, lr:0.000028, total loss:0.000058
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:129, MSE: 0.00011877586075570434
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011251, MAE: 0.006999, MAPE: 0.007533, RMSE: 0.010607, R2: 0.920818
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 129 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_129.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:130, lr:0.000027, total loss:0.000058
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:130, MSE: 0.00011943740537390113
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:131, lr:0.000027, total loss:0.000058
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:131, MSE: 0.00011962583084823564
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:132, lr:0.000026, total loss:0.000058
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:132, MSE: 0.000118245865451172
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011164, MAE: 0.006922, MAPE: 0.007438, RMSE: 0.010566, R2: 0.917849
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 132 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_132.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:133, lr:0.000025, total loss:0.000058
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:133, MSE: 0.0001177973099402152
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011126, MAE: 0.006955, MAPE: 0.007477, RMSE: 0.010548, R2: 0.917857
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 133 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_133.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:134, lr:0.000025, total loss:0.000057
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:134, MSE: 0.0001174572971649468
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011112, MAE: 0.006944, MAPE: 0.007470, RMSE: 0.010541, R2: 0.920001
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 134 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_134.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:135, lr:0.000024, total loss:0.000057
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:135, MSE: 0.00011715974687831476
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011082, MAE: 0.006942, MAPE: 0.007466, RMSE: 0.010527, R2: 0.919740
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 135 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_135.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:136, lr:0.000023, total loss:0.000057
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:136, MSE: 0.00011669875675579533
+2025-11-15 22:56 - function:Train - INFO - [Test] MSE: 0.00011023, MAE: 0.006899, MAPE: 0.007417, RMSE: 0.010499, R2: 0.919877
+2025-11-15 22:56 - function:plot - INFO - Saved plot for epoch 136 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_136.png
+2025-11-15 22:56 - function:Train - INFO - [Train] epoch:137, lr:0.000023, total loss:0.000057
+2025-11-15 22:56 - function:Train - INFO - [Valid] epoch:137, MSE: 0.00011649386578937992
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00011024, MAE: 0.006875, MAPE: 0.007389, RMSE: 0.010499, R2: 0.920906
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 137 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_137.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:138, lr:0.000022, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:138, MSE: 0.00011677436850732192
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:139, lr:0.000021, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:139, MSE: 0.00011628045467659831
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010996, MAE: 0.006861, MAPE: 0.007372, RMSE: 0.010486, R2: 0.920117
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 139 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_139.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:140, lr:0.000021, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:140, MSE: 0.0001158677987405099
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010958, MAE: 0.006861, MAPE: 0.007376, RMSE: 0.010468, R2: 0.921497
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 140 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_140.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:141, lr:0.000020, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:141, MSE: 0.00011648234794847667
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:142, lr:0.000019, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:142, MSE: 0.0001155787831521593
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010936, MAE: 0.006849, MAPE: 0.007361, RMSE: 0.010457, R2: 0.921454
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 142 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_142.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:143, lr:0.000019, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:143, MSE: 0.00011532719508977607
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010896, MAE: 0.006855, MAPE: 0.007371, RMSE: 0.010438, R2: 0.921797
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 143 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_143.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:144, lr:0.000018, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:144, MSE: 0.00011531772906892002
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010906, MAE: 0.006834, MAPE: 0.007344, RMSE: 0.010443, R2: 0.921795
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 144 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_144.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:145, lr:0.000018, total loss:0.000056
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:145, MSE: 0.00011503852147143334
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010893, MAE: 0.006877, MAPE: 0.007397, RMSE: 0.010437, R2: 0.921857
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 145 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_145.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:146, lr:0.000017, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:146, MSE: 0.0001149739691754803
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010871, MAE: 0.006869, MAPE: 0.007387, RMSE: 0.010426, R2: 0.921300
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 146 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_146.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:147, lr:0.000016, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:147, MSE: 0.00011484639253467321
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010861, MAE: 0.006859, MAPE: 0.007376, RMSE: 0.010421, R2: 0.921395
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 147 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_147.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:148, lr:0.000016, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:148, MSE: 0.0001145062196883373
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010840, MAE: 0.006823, MAPE: 0.007336, RMSE: 0.010411, R2: 0.922736
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 148 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_148.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:149, lr:0.000015, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:149, MSE: 0.00011422142415540293
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010816, MAE: 0.006810, MAPE: 0.007322, RMSE: 0.010400, R2: 0.922808
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 149 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_149.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:150, lr:0.000015, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:150, MSE: 0.00011430634185671806
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:151, lr:0.000014, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:151, MSE: 0.00011467526201158762
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:152, lr:0.000014, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:152, MSE: 0.00011420538066886365
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010804, MAE: 0.006796, MAPE: 0.007303, RMSE: 0.010394, R2: 0.921969
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 152 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_152.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:153, lr:0.000013, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:153, MSE: 0.00011421831732150167
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:154, lr:0.000012, total loss:0.000055
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:154, MSE: 0.00011404258839320391
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010790, MAE: 0.006842, MAPE: 0.007358, RMSE: 0.010388, R2: 0.921873
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 154 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_154.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:155, lr:0.000012, total loss:0.000054
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:155, MSE: 0.00011363400699337944
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010750, MAE: 0.006793, MAPE: 0.007302, RMSE: 0.010368, R2: 0.921922
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 155 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_155.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:156, lr:0.000011, total loss:0.000054
+2025-11-15 22:57 - function:Train - INFO - [Valid] epoch:156, MSE: 0.00011356794129824266
+2025-11-15 22:57 - function:Train - INFO - [Test] MSE: 0.00010753, MAE: 0.006781, MAPE: 0.007288, RMSE: 0.010370, R2: 0.922754
+2025-11-15 22:57 - function:plot - INFO - Saved plot for epoch 156 to C:\Users\pc\Inf Hyp\Power system\Pi_KANN\Term_paper_ESL372\KANN_PINN_with_PCA\with_11_components\optimized_plots\final_model\true_vs_pred_epoch_156.png
+2025-11-15 22:57 - function:Train - INFO - [Train] epoch:157, lr:0.000011, total loss:0.000054
+2025-11-15 22:57 - function:Train - INFO - Loss is increasing, stopping training.

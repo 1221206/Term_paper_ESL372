@@ -1,0 +1,16 @@
+batch_size: 512
+epochs: 200
+early_stop: 25
+warmup_lr: 0.0001
+lr: 3e-05
+lr_F: 1e-05
+u_layers_num: 3
+u_hidden_dim: 60
+F_layers_num: 3
+F_hidden_dim: 60
+lambda1: 2.0
+lambda2: 0.1
+lambda3: 0.01
+l2_lambda: 0.0
+log_dir: logging_pca_sensitivity.txt
+save_folder: Term_paper_ESL372/KANN_PINN_with_PCA/with_11_components/sensitivity_analysis_hybrid\lambda1_sensitivity\lambda1_2.0

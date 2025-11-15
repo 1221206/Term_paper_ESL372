@@ -113,15 +113,14 @@ class DF():
         tensor_Y1 = torch.from_numpy(Y1).float().view(-1, 1)  # Reshape labels to (n, 1)
         tensor_Y2 = torch.from_numpy(Y2).float().view(-1, 1)  
 
-        # Condition 1: Split data for training, validation, and testing
-        split = int(tensor_X1.shape[0] * 0.8)  
-        train_X1, test_X1 = tensor_X1[:split], tensor_X1[split:]  
-        train_X2, test_X2 = tensor_X2[:split], tensor_X2[split:]
-        train_Y1, test_Y1 = tensor_Y1[:split], tensor_Y1[split:]
-        train_Y2, test_Y2 = tensor_Y2[:split], tensor_Y2[split:]
-
+        # Split data for training, validation, and testing
+        # First, split into 80% train+valid and 20% test
+        train_valid_X1, test_X1, train_valid_X2, test_X2, train_valid_Y1, test_Y1, train_valid_Y2, test_Y2 = \
+            train_test_split(tensor_X1, tensor_X2, tensor_Y1, tensor_Y2, test_size=0.2, random_state=420)
+        
+        # Then, split train+valid into 80% train and 20% valid
         train_X1, valid_X1, train_X2, valid_X2, train_Y1, valid_Y1, train_Y2, valid_Y2 = \
-            train_test_split(train_X1, train_X2, train_Y1, train_Y2, test_size=0.2, random_state=420)  
+            train_test_split(train_valid_X1, train_valid_X2, train_valid_Y1, train_valid_Y2, test_size=0.2, random_state=420)
 
         
         train_loader = DataLoader(TensorDataset(train_X1, train_X2, train_Y1, train_Y2),
@@ -134,25 +133,14 @@ class DF():
                                  batch_size=self.args.batch_size,  
                                  shuffle=False)  
 
-        # Condition 2: Split the entire dataset for training and validation
-        train_X1, valid_X1, train_X2, valid_X2, train_Y1, valid_Y1, train_Y2, valid_Y2 = \
-            train_test_split(tensor_X1, tensor_X2, tensor_Y1, tensor_Y2, test_size=0.2, random_state=420)  
-        train_loader_2 = DataLoader(TensorDataset(train_X1, train_X2, train_Y1, train_Y2),
-                                  batch_size=self.args.batch_size,  
-                                  shuffle=True)  
-        valid_loader_2 = DataLoader(TensorDataset(valid_X1, valid_X2, valid_Y1, valid_Y2),
-                                  batch_size=self.args.batch_size,  
-                                  shuffle=True)  
-
-        # Condition 3: Use the entire dataset for testing
-        test_loader_3 = DataLoader(TensorDataset(tensor_X1, tensor_X2, tensor_Y1, tensor_Y2),
+        # Use the entire dataset for full analysis
+        full_dataset_loader = DataLoader(TensorDataset(tensor_X1, tensor_X2, tensor_Y1, tensor_Y2),
                                  batch_size=self.args.batch_size,  
                                  shuffle=False) 
 
         # Return all data loaders
         loader = {'train': train_loader, 'valid': valid_loader, 'test': test_loader,
-                  'train_2': train_loader_2, 'valid_2': valid_loader_2,
-                  'test_3': test_loader_3}
+                  'full_dataset': full_dataset_loader}
         return loader  
 
 

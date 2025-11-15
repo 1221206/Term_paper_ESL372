@@ -14,7 +14,7 @@ def get_args():
     parser = argparse.ArgumentParser('Hyper Parameters for feature analysis')
     parser.add_argument('--normalization_method', type=str, default='min-max', help='min-max')
     # Add other necessary arguments from main_MIT.py if needed for dataloader
-    parser.add_argument('--data_root', type=str, default='../MIT_data', help='Root directory for the MIT dataset')
+    parser.add_argument('--data_root', type=str, default='MIT_data', help='Root directory for the MIT dataset')
     parser.add_argument('--batch_size', type=int, default=512, help='batch size')
     parser.add_argument('--log_dir', type=str, default=None, help='log dir')
     parser.add_argument('--save_folder', type=str, default=None, help='save folder')
@@ -49,7 +49,7 @@ def load_all_data_as_numpy(args):
     # Extract tensors and convert to numpy
     x1_list = []
     y1_list = []
-    for x1, _, y1, _ in all_data_loader['test_3']:
+    for x1, _, y1, _ in all_data_loader['full_dataset']:
         x1_list.append(x1.numpy())
         y1_list.append(y1.numpy())
         

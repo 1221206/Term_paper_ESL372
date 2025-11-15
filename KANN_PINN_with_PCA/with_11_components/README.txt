@@ -1,0 +1,1 @@
+no regularizations used in main model
